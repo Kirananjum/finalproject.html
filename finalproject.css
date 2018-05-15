@@ -1,0 +1,89 @@
+.one {
+	font-family: verdana;
+	padding-left: 100px;
+}
+
+#two {
+	width: 530px;
+	height: 300px;
+	padding-left: 100px;
+	padding-top: 50px;
+}
+
+.four {
+	padding-left: 100px;
+	padding-right: 200px;
+	font-family: verdana;
+	
+}
+
+.five {
+	font-family: verdana;
+	padding-left: 630px;
+	padding-right: 200px;
+	
+
+}
+.six {
+	font-family: verdana;
+	padding-left: 500px;
+	padding-right: 200px;
+
+}
+
+.seven {
+	font-family: verdana;
+	padding-left: 500px;
+	padding-right: 400px;
+	float: center;
+
+}
+
+#eight {
+	width: 250px;
+	height: 250px;
+	padding-top: 100px;
+	padding-left: 500px;
+	padding-right: 200px;
+}
+
+.twelve {
+	padding-left: 500px;
+	padding-right: 500px;
+	width: 250px;
+	height: 250px;
+}
+
+div {
+    width: 10px;
+    height: 10px;
+    background-color: #008CBA;
+    animation: box 5s 5s alternate; 
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@keyframes box {
+    0% {
+        border-radius: 0 0 0 0;
+        background-color: #008CBA;
+        transform: rotate(0deg);
+        } /*initial state*/
+   
+
+    50% {
+        border-radius: 50% 50% 0 0;
+        background-color: #008CBA;
+        transform: rotate(90deg);
+	}
+
+    
+    100%{
+        border-radius: 50% 50% 50% 50%;
+        background-color: #008CBA;
+        transform: rotate(180deg);
+        transition-duration: 20s;
+        } /*final state*/
+
+    
+} 
